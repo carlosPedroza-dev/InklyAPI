@@ -13,4 +13,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Inkly.Infrastructure\Inkly.Infrastructure.csproj" />
+    <ProjectReference Include="..\Inkly.Application\Inkly.Application.csproj" />
+    <ProjectReference Include="..\Inkly.Domain\Inkly.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
